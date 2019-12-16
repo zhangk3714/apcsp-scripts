@@ -1,0 +1,15 @@
+#!/bin/bash
+
+LIST="1 2 3 4 5 6 7 8 9 10"
+
+for file in $LIST ; do
+	if [ $file -eq  4 ] ; then
+	echo $file
+	else
+	echo no
+	fi
+done
+
+echo this is my 2nd file
+
+exit 0
